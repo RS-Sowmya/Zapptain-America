@@ -12,7 +12,7 @@ import pandas as pd
 from scipy.signal import spectrogram as scipy_spectrogram
 from scipy.ndimage import maximum_filter
 
-st.set_page_config(page_title="Song Identifier", layout="wide")
+st.set_page_config(page_title="Zapptain America", layout="wide")
 
 def fast_spectrogram(signal, sr, window_size=2048, hop_size=512):
     noverlap = window_size - hop_size
